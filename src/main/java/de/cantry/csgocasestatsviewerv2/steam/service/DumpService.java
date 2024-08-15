@@ -102,7 +102,7 @@ public class DumpService {
 
         while (current > end) {
             try {
-                Thread.sleep(3500);
+                Thread.sleep(5000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
